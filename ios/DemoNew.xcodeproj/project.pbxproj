@@ -14,6 +14,34 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		578719E32AE24DBC00B1966C /* WatchScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578719E22AE24DBC00B1966C /* WatchScan.swift */; };
 		578719E52AE24DCD00B1966C /* WatchScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 578719E42AE24DCD00B1966C /* WatchScan.m */; };
+		57C0074B2AE2782D00CDC6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0074A2AE2782D00CDC6D9 /* ViewController.m */; };
+		57C0074F2AE278A500CDC6D9 /* AppDelegate+LoggerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0074E2AE278A500CDC6D9 /* AppDelegate+LoggerService.m */; };
+		57C007522AE278AF00CDC6D9 /* AppDelegate+FitCloudKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007512AE278AF00CDC6D9 /* AppDelegate+FitCloudKit.m */; };
+		57C007552AE278E600CDC6D9 /* DeviceSearchListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007542AE278E600CDC6D9 /* DeviceSearchListController.m */; };
+		57C007582AE278FA00CDC6D9 /* DeviceBindingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007572AE278FA00CDC6D9 /* DeviceBindingController.m */; };
+		57C0075B2AE2790400CDC6D9 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0075A2AE2790400CDC6D9 /* DemoListController.m */; };
+		57C0075E2AE2790E00CDC6D9 /* MessageReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0075D2AE2790E00CDC6D9 /* MessageReminderController.m */; };
+		57C007612AE2791700CDC6D9 /* AlarmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007602AE2791700CDC6D9 /* AlarmController.m */; };
+		57C007642AE2792500CDC6D9 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007632AE2792500CDC6D9 /* SedentaryRemindController.m */; };
+		57C007672AE2792D00CDC6D9 /* DrinkRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007662AE2792D00CDC6D9 /* DrinkRemindController.m */; };
+		57C0076A2AE2793800CDC6D9 /* WristWakeUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007692AE2793800CDC6D9 /* WristWakeUpController.m */; };
+		57C0076D2AE2794300CDC6D9 /* HealthMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0076C2AE2794300CDC6D9 /* HealthMonitorController.m */; };
+		57C007702AE2794C00CDC6D9 /* ScreenDispayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0076F2AE2794C00CDC6D9 /* ScreenDispayController.m */; };
+		57C007732AE2795700CDC6D9 /* RealtimeMeasureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007722AE2795700CDC6D9 /* RealtimeMeasureController.m */; };
+		57C007762AE2796200CDC6D9 /* DailyGoalSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007752AE2796100CDC6D9 /* DailyGoalSettingController.m */; };
+		57C007792AE2797200CDC6D9 /* UnitPreferController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007782AE2797200CDC6D9 /* UnitPreferController.m */; };
+		57C0077C2AE2797F00CDC6D9 /* UserProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0077B2AE2797F00CDC6D9 /* UserProfileController.m */; };
+		57C0077F2AE2798700CDC6D9 /* WeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C0077E2AE2798700CDC6D9 /* WeatherController.m */; };
+		57C007832AE279A400CDC6D9 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007822AE279A400CDC6D9 /* DeviceCell.m */; };
+		57C007852AE279AD00CDC6D9 /* WomenHealthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007842AE279AD00CDC6D9 /* WomenHealthController.m */; };
+		57C007892AE27E3600CDC6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C007882AE27E3600CDC6D9 /* Main.storyboard */; };
+		57C0078B2AE27E3F00CDC6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C0078A2AE27E3F00CDC6D9 /* Assets.xcassets */; };
+		57C007992AE27E5E00CDC6D9 /* LocalizedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007902AE27E5E00CDC6D9 /* LocalizedLabel.m */; };
+		57C0079A2AE27E5E00CDC6D9 /* LocalizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007922AE27E5E00CDC6D9 /* LocalizedButton.m */; };
+		57C0079B2AE27E5E00CDC6D9 /* MoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007962AE27E5E00CDC6D9 /* MoView.m */; };
+		57C0079C2AE27E5E00CDC6D9 /* MoCurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C007972AE27E5E00CDC6D9 /* MoCurveLayer.m */; };
+		57C007A32AE27EF700CDC6D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C007A22AE27EF700CDC6D9 /* InfoPlist.strings */; };
+		57C007A52AE27EFC00CDC6D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C007A42AE27EFC00CDC6D9 /* Localizable.strings */; };
 		7699B88040F8A987B510C191 /* libPods-DemoNew-DemoNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemoNew-DemoNewTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -44,6 +72,59 @@
 		578719E12AE24DBB00B1966C /* DemoNew-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoNew-Bridging-Header.h"; sourceTree = "<group>"; };
 		578719E22AE24DBC00B1966C /* WatchScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScan.swift; sourceTree = "<group>"; };
 		578719E42AE24DCD00B1966C /* WatchScan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchScan.m; sourceTree = "<group>"; };
+		57C0074A2AE2782D00CDC6D9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57C0074C2AE2783800CDC6D9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57C0074D2AE278A000CDC6D9 /* AppDelegate+LoggerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LoggerService.h"; sourceTree = "<group>"; };
+		57C0074E2AE278A500CDC6D9 /* AppDelegate+LoggerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LoggerService.m"; sourceTree = "<group>"; };
+		57C007502AE278AB00CDC6D9 /* AppDelegate+FitCloudKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+FitCloudKit.h"; sourceTree = "<group>"; };
+		57C007512AE278AF00CDC6D9 /* AppDelegate+FitCloudKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+FitCloudKit.m"; sourceTree = "<group>"; };
+		57C007532AE278E200CDC6D9 /* DeviceSearchListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSearchListController.h; sourceTree = "<group>"; };
+		57C007542AE278E600CDC6D9 /* DeviceSearchListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSearchListController.m; sourceTree = "<group>"; };
+		57C007562AE278F400CDC6D9 /* DeviceBindingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceBindingController.h; sourceTree = "<group>"; };
+		57C007572AE278FA00CDC6D9 /* DeviceBindingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceBindingController.m; sourceTree = "<group>"; };
+		57C007592AE2790000CDC6D9 /* DemoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListController.h; sourceTree = "<group>"; };
+		57C0075A2AE2790400CDC6D9 /* DemoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListController.m; sourceTree = "<group>"; };
+		57C0075C2AE2790A00CDC6D9 /* MessageReminderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageReminderController.h; sourceTree = "<group>"; };
+		57C0075D2AE2790E00CDC6D9 /* MessageReminderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageReminderController.m; sourceTree = "<group>"; };
+		57C0075F2AE2791300CDC6D9 /* AlarmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmController.h; sourceTree = "<group>"; };
+		57C007602AE2791700CDC6D9 /* AlarmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmController.m; sourceTree = "<group>"; };
+		57C007622AE2791F00CDC6D9 /* SedentaryRemindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SedentaryRemindController.h; sourceTree = "<group>"; };
+		57C007632AE2792500CDC6D9 /* SedentaryRemindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SedentaryRemindController.m; sourceTree = "<group>"; };
+		57C007652AE2792900CDC6D9 /* DrinkRemindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkRemindController.h; sourceTree = "<group>"; };
+		57C007662AE2792D00CDC6D9 /* DrinkRemindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkRemindController.m; sourceTree = "<group>"; };
+		57C007682AE2793300CDC6D9 /* WristWakeUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WristWakeUpController.h; sourceTree = "<group>"; };
+		57C007692AE2793800CDC6D9 /* WristWakeUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WristWakeUpController.m; sourceTree = "<group>"; };
+		57C0076B2AE2793E00CDC6D9 /* HealthMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthMonitorController.h; sourceTree = "<group>"; };
+		57C0076C2AE2794300CDC6D9 /* HealthMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthMonitorController.m; sourceTree = "<group>"; };
+		57C0076E2AE2794800CDC6D9 /* ScreenDispayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenDispayController.h; sourceTree = "<group>"; };
+		57C0076F2AE2794C00CDC6D9 /* ScreenDispayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenDispayController.m; sourceTree = "<group>"; };
+		57C007712AE2795300CDC6D9 /* RealtimeMeasureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealtimeMeasureController.h; sourceTree = "<group>"; };
+		57C007722AE2795700CDC6D9 /* RealtimeMeasureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealtimeMeasureController.m; sourceTree = "<group>"; };
+		57C007742AE2795E00CDC6D9 /* DailyGoalSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyGoalSettingController.h; sourceTree = "<group>"; };
+		57C007752AE2796100CDC6D9 /* DailyGoalSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyGoalSettingController.m; sourceTree = "<group>"; };
+		57C007772AE2796A00CDC6D9 /* UnitPreferController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitPreferController.h; sourceTree = "<group>"; };
+		57C007782AE2797200CDC6D9 /* UnitPreferController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitPreferController.m; sourceTree = "<group>"; };
+		57C0077A2AE2797B00CDC6D9 /* UserProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileController.h; sourceTree = "<group>"; };
+		57C0077B2AE2797F00CDC6D9 /* UserProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileController.m; sourceTree = "<group>"; };
+		57C0077D2AE2798400CDC6D9 /* WeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherController.h; sourceTree = "<group>"; };
+		57C0077E2AE2798700CDC6D9 /* WeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherController.m; sourceTree = "<group>"; };
+		57C007802AE2799200CDC6D9 /* WomenHealthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomenHealthController.h; sourceTree = "<group>"; };
+		57C007812AE2799700CDC6D9 /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
+		57C007822AE279A400CDC6D9 /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
+		57C007842AE279AD00CDC6D9 /* WomenHealthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomenHealthController.m; sourceTree = "<group>"; };
+		57C007882AE27E3600CDC6D9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		57C0078A2AE27E3F00CDC6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C0078C2AE27E4F00CDC6D9 /* FitCloudKitDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FitCloudKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		57C0078F2AE27E5E00CDC6D9 /* LocalizedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedLabel.h; sourceTree = "<group>"; };
+		57C007902AE27E5E00CDC6D9 /* LocalizedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedLabel.m; sourceTree = "<group>"; };
+		57C007922AE27E5E00CDC6D9 /* LocalizedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedButton.m; sourceTree = "<group>"; };
+		57C007932AE27E5E00CDC6D9 /* LocalizedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedButton.h; sourceTree = "<group>"; };
+		57C007952AE27E5E00CDC6D9 /* MoCurveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoCurveLayer.h; sourceTree = "<group>"; };
+		57C007962AE27E5E00CDC6D9 /* MoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoView.m; sourceTree = "<group>"; };
+		57C007972AE27E5E00CDC6D9 /* MoCurveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoCurveLayer.m; sourceTree = "<group>"; };
+		57C007982AE27E5E00CDC6D9 /* MoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoView.h; sourceTree = "<group>"; };
+		57C007A22AE27EF700CDC6D9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		57C007A42AE27EFC00CDC6D9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-DemoNew-DemoNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoNew-DemoNewTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoNew-DemoNewTests/Pods-DemoNew-DemoNewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-DemoNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DemoNew/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,8 +172,13 @@
 		13B07FAE1A68108700A75B9A /* DemoNew */ = {
 			isa = PBXGroup;
 			children = (
+				57C0078D2AE27E5E00CDC6D9 /* Vendors */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				57C0074D2AE278A000CDC6D9 /* AppDelegate+LoggerService.h */,
+				57C0074E2AE278A500CDC6D9 /* AppDelegate+LoggerService.m */,
+				57C007502AE278AB00CDC6D9 /* AppDelegate+FitCloudKit.h */,
+				57C007512AE278AF00CDC6D9 /* AppDelegate+FitCloudKit.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -100,6 +186,47 @@
 				578719E22AE24DBC00B1966C /* WatchScan.swift */,
 				578719E42AE24DCD00B1966C /* WatchScan.m */,
 				578719E12AE24DBB00B1966C /* DemoNew-Bridging-Header.h */,
+				57C0074A2AE2782D00CDC6D9 /* ViewController.m */,
+				57C0074C2AE2783800CDC6D9 /* ViewController.h */,
+				57C007532AE278E200CDC6D9 /* DeviceSearchListController.h */,
+				57C007542AE278E600CDC6D9 /* DeviceSearchListController.m */,
+				57C007562AE278F400CDC6D9 /* DeviceBindingController.h */,
+				57C007572AE278FA00CDC6D9 /* DeviceBindingController.m */,
+				57C007592AE2790000CDC6D9 /* DemoListController.h */,
+				57C0075A2AE2790400CDC6D9 /* DemoListController.m */,
+				57C0075C2AE2790A00CDC6D9 /* MessageReminderController.h */,
+				57C0075D2AE2790E00CDC6D9 /* MessageReminderController.m */,
+				57C0075F2AE2791300CDC6D9 /* AlarmController.h */,
+				57C007602AE2791700CDC6D9 /* AlarmController.m */,
+				57C007622AE2791F00CDC6D9 /* SedentaryRemindController.h */,
+				57C007632AE2792500CDC6D9 /* SedentaryRemindController.m */,
+				57C007652AE2792900CDC6D9 /* DrinkRemindController.h */,
+				57C007662AE2792D00CDC6D9 /* DrinkRemindController.m */,
+				57C007682AE2793300CDC6D9 /* WristWakeUpController.h */,
+				57C007692AE2793800CDC6D9 /* WristWakeUpController.m */,
+				57C0076B2AE2793E00CDC6D9 /* HealthMonitorController.h */,
+				57C0076C2AE2794300CDC6D9 /* HealthMonitorController.m */,
+				57C0076E2AE2794800CDC6D9 /* ScreenDispayController.h */,
+				57C0076F2AE2794C00CDC6D9 /* ScreenDispayController.m */,
+				57C007712AE2795300CDC6D9 /* RealtimeMeasureController.h */,
+				57C007722AE2795700CDC6D9 /* RealtimeMeasureController.m */,
+				57C007742AE2795E00CDC6D9 /* DailyGoalSettingController.h */,
+				57C007752AE2796100CDC6D9 /* DailyGoalSettingController.m */,
+				57C007772AE2796A00CDC6D9 /* UnitPreferController.h */,
+				57C007782AE2797200CDC6D9 /* UnitPreferController.m */,
+				57C0077A2AE2797B00CDC6D9 /* UserProfileController.h */,
+				57C0077B2AE2797F00CDC6D9 /* UserProfileController.m */,
+				57C0077D2AE2798400CDC6D9 /* WeatherController.h */,
+				57C0077E2AE2798700CDC6D9 /* WeatherController.m */,
+				57C007802AE2799200CDC6D9 /* WomenHealthController.h */,
+				57C007842AE279AD00CDC6D9 /* WomenHealthController.m */,
+				57C007812AE2799700CDC6D9 /* DeviceCell.h */,
+				57C007822AE279A400CDC6D9 /* DeviceCell.m */,
+				57C007882AE27E3600CDC6D9 /* Main.storyboard */,
+				57C0078A2AE27E3F00CDC6D9 /* Assets.xcassets */,
+				57C0078C2AE27E4F00CDC6D9 /* FitCloudKitDemo-Prefix.pch */,
+				57C007A22AE27EF700CDC6D9 /* InfoPlist.strings */,
+				57C007A42AE27EFC00CDC6D9 /* Localizable.strings */,
 			);
 			name = DemoNew;
 			sourceTree = "<group>";
@@ -112,6 +239,45 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemoNew-DemoNewTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C0078D2AE27E5E00CDC6D9 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				57C0078E2AE27E5E00CDC6D9 /* LocalizedLabel */,
+				57C007912AE27E5E00CDC6D9 /* LocalizedButton */,
+				57C007942AE27E5E00CDC6D9 /* MoLoading */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		57C0078E2AE27E5E00CDC6D9 /* LocalizedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				57C0078F2AE27E5E00CDC6D9 /* LocalizedLabel.h */,
+				57C007902AE27E5E00CDC6D9 /* LocalizedLabel.m */,
+			);
+			path = LocalizedLabel;
+			sourceTree = "<group>";
+		};
+		57C007912AE27E5E00CDC6D9 /* LocalizedButton */ = {
+			isa = PBXGroup;
+			children = (
+				57C007922AE27E5E00CDC6D9 /* LocalizedButton.m */,
+				57C007932AE27E5E00CDC6D9 /* LocalizedButton.h */,
+			);
+			path = LocalizedButton;
+			sourceTree = "<group>";
+		};
+		57C007942AE27E5E00CDC6D9 /* MoLoading */ = {
+			isa = PBXGroup;
+			children = (
+				57C007952AE27E5E00CDC6D9 /* MoCurveLayer.h */,
+				57C007962AE27E5E00CDC6D9 /* MoView.m */,
+				57C007972AE27E5E00CDC6D9 /* MoCurveLayer.m */,
+				57C007982AE27E5E00CDC6D9 /* MoView.h */,
+			);
+			path = MoLoading;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -250,8 +416,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C007892AE27E3600CDC6D9 /* Main.storyboard in Resources */,
+				57C007A52AE27EFC00CDC6D9 /* Localizable.strings in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				57C0078B2AE27E3F00CDC6D9 /* Assets.xcassets in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				57C007A32AE27EF700CDC6D9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +590,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C007642AE2792500CDC6D9 /* SedentaryRemindController.m in Sources */,
+				57C007832AE279A400CDC6D9 /* DeviceCell.m in Sources */,
+				57C007852AE279AD00CDC6D9 /* WomenHealthController.m in Sources */,
+				57C007672AE2792D00CDC6D9 /* DrinkRemindController.m in Sources */,
+				57C0075E2AE2790E00CDC6D9 /* MessageReminderController.m in Sources */,
+				57C007992AE27E5E00CDC6D9 /* LocalizedLabel.m in Sources */,
+				57C0074F2AE278A500CDC6D9 /* AppDelegate+LoggerService.m in Sources */,
+				57C0079C2AE27E5E00CDC6D9 /* MoCurveLayer.m in Sources */,
+				57C0077F2AE2798700CDC6D9 /* WeatherController.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				57C007792AE2797200CDC6D9 /* UnitPreferController.m in Sources */,
+				57C007582AE278FA00CDC6D9 /* DeviceBindingController.m in Sources */,
+				57C0076D2AE2794300CDC6D9 /* HealthMonitorController.m in Sources */,
+				57C007702AE2794C00CDC6D9 /* ScreenDispayController.m in Sources */,
+				57C0076A2AE2793800CDC6D9 /* WristWakeUpController.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				57C0077C2AE2797F00CDC6D9 /* UserProfileController.m in Sources */,
+				57C007522AE278AF00CDC6D9 /* AppDelegate+FitCloudKit.m in Sources */,
 				578719E52AE24DCD00B1966C /* WatchScan.m in Sources */,
+				57C007552AE278E600CDC6D9 /* DeviceSearchListController.m in Sources */,
+				57C0079A2AE27E5E00CDC6D9 /* LocalizedButton.m in Sources */,
+				57C0079B2AE27E5E00CDC6D9 /* MoView.m in Sources */,
+				57C007732AE2795700CDC6D9 /* RealtimeMeasureController.m in Sources */,
 				578719E32AE24DBC00B1966C /* WatchScan.swift in Sources */,
+				57C007612AE2791700CDC6D9 /* AlarmController.m in Sources */,
+				57C0075B2AE2790400CDC6D9 /* DemoListController.m in Sources */,
+				57C0074B2AE2782D00CDC6D9 /* ViewController.m in Sources */,
+				57C007762AE2796200CDC6D9 /* DailyGoalSettingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +772,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -614,7 +808,10 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
@@ -653,7 +850,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -684,7 +881,10 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

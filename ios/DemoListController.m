@@ -8,7 +8,7 @@
 
 #import "DemoListController.h"
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
-
+#import <FitCloudKit/FitCloudKit.h>
 @interface DemoListController ()
 
 - (IBAction)OnGoBack:(id)sender;
@@ -39,27 +39,27 @@
 -(void) fetchSportsDataToday
 {
     __weak typeof(self) weakSelf = self;
-    [FitCloudKit requestHealthAndSportsDataTodayWithBlock:^(BOOL succeed, NSString* userId, FitCloudDailyHealthAndSportsDataObject *dataObject, NSError *error) {
-        if([dataObject isKindOfClass:[FitCloudDailyHealthAndSportsDataObject class]])
-        {
-            NSString * log = APP_LOG_STRING(@"\n今日运动数据：\n步数：%@\n距离：%@\n卡路里：%@\n深睡：%@\n浅睡：%@\n平均心率：%@", @(dataObject.steps), @(dataObject.distance), @(dataObject.calory), @(dataObject.deepSleepMinutes),@(dataObject.shallowSleepMinutes),@(dataObject.averageHeartRate));
-            XLOG_INFO(@"%@", log);
-            dispatch_async(dispatch_get_main_queue(), ^{
-                ConsoleResultToastTip(weakSelf.view);
-            });
-        }
-        
-    }];
+//    [FitCloudKit requestHealthAndSportsDataTodayWithBlock:^(BOOL succeed, NSString* userId, FitCloudDailyHealthAndSportsDataObject *dataObject, NSError *error) {
+//        if([dataObject isKindOfClass:[FitCloudDailyHealthAndSportsDataObject class]])
+//        {
+//            NSString * log = APP_LOG_STRING(@"\n今日运动数据：\n步数：%@\n距离：%@\n卡路里：%@\n深睡：%@\n浅睡：%@\n平均心率：%@", @(dataObject.steps), @(dataObject.distance), @(dataObject.calory), @(dataObject.deepSleepMinutes),@(dataObject.shallowSleepMinutes),@(dataObject.averageHeartRate));
+//            XLOG_INFO(@"%@", log);
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                ConsoleResultToastTip(weakSelf.view);
+//            });
+//        }
+//
+//    }];
 }
 
 -(void) manualSyncData
 {
     __weak typeof(self) weakSelf = self;
     [FitCloudKit manualSyncDataWithOption:FITCLOUDDATASYNCOPTION_ALL progress:^(CGFloat progress, NSString *tip) {
-        XLOG_INFO(@"%@", APP_LOG_STRING(@"同步进度：%.0f%%, %@",progress*100.0f, tip));
+//        XLOG_INFO(@"%@", APP_LOG_STRING(@"同步进度：%.0f%%, %@",progress*100.0f, tip));
     } block:^(BOOL succeed, NSString* userId, NSArray<FitCloudManualSyncRecordObject*> *records, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            ConsoleResultToastTip(weakSelf.view);
+//            ConsoleResultToastTip(weakSelf.view);
         });
         BOOL hasRecords = [records isKindOfClass:[NSArray class]] && [records count] > 0;
         if(succeed && hasRecords)

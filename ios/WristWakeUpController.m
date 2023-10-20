@@ -28,27 +28,27 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
-    {
-        [FitCloudKit getWristWakeUpSettingWithBlock:^(BOOL succeed, FitCloudWWUObject *wwuSetting, NSError *error) {
-            XLOG_INFO(@"Wrist Wake Up Settings:\nisOn:%@\nbegin:%@\nend:%@", @(wwuSetting.on), @(wwuSetting.begin), @(wwuSetting.end));
-            dispatch_async(dispatch_get_main_queue(), ^{
-                ConsoleResultToastTip(self.view);
-            });
-        }];
-    }
-    else if(indexPath.row == 1)
-    {
-        FitCloudWWUObject *settings = [FitCloudWWUObject new];
-        settings.on = true;
-        settings.begin = 60*9;
-        settings.end = 60*20;
-        [FitCloudKit setWristWakeUp:settings block:^(BOOL succeed, NSError *error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(self.view, succeed);
-            });
-        }];
-    }
+//    if(indexPath.row == 0)
+//    {
+//        [FitCloudKit getWristWakeUpSettingWithBlock:^(BOOL succeed, FitCloudWWUObject *wwuSetting, NSError *error) {
+//            XLOG_INFO(@"Wrist Wake Up Settings:\nisOn:%@\nbegin:%@\nend:%@", @(wwuSetting.on), @(wwuSetting.begin), @(wwuSetting.end));
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                ConsoleResultToastTip(self.view);
+//            });
+//        }];
+//    }
+//    else if(indexPath.row == 1)
+//    {
+//        FitCloudWWUObject *settings = [FitCloudWWUObject new];
+//        settings.on = true;
+//        settings.begin = 60*9;
+//        settings.end = 60*20;
+//        [FitCloudKit setWristWakeUp:settings block:^(BOOL succeed, NSError *error) {
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                OpResultToastTip(self.view, succeed);
+//            });
+//        }];
+//    }
 }
 
 /*
