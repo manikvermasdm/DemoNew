@@ -10,6 +10,7 @@ PODS:
     - React-Core (= 0.72.6)
     - React-jsi (= 0.72.6)
     - ReactCommon/turbomodule/core (= 0.72.6)
+  - FitCloudKit (1.2.9-beta.32)
   - Flipper (0.182.0):
     - Flipper-Folly (~> 2.6)
   - Flipper-Boost-iOSX (1.76.0.1.11)
@@ -75,6 +76,9 @@ PODS:
   - hermes-engine/Pre-built (0.72.6)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
+  - QuickTraceiOSLogger (2.0.7):
+    - XLFacility.optimize
+    - YYWebImage
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -486,15 +490,42 @@ PODS:
     - React-logger (= 0.72.6)
     - React-perflogger (= 0.72.6)
   - SocketRocket (0.6.1)
+  - Toast (4.0.0)
+  - XLFacility.optimize (1.5.20):
+    - XLFacility.optimize/Core (= 1.5.20)
+    - XLFacility.optimize/GCDNetworking (= 1.5.20)
+    - XLFacility.optimize/GCDTelnetServer (= 1.5.20)
+    - XLFacility.optimize/Networking (= 1.5.20)
+    - XLFacility.optimize/UserInterface (= 1.5.20)
+  - XLFacility.optimize/Core (1.5.20)
+  - XLFacility.optimize/GCDNetworking (1.5.20)
+  - XLFacility.optimize/GCDTelnetServer (1.5.20):
+    - XLFacility.optimize/GCDNetworking
+  - XLFacility.optimize/Networking (1.5.20):
+    - XLFacility.optimize/Core
+    - XLFacility.optimize/GCDTelnetServer
+  - XLFacility.optimize/UserInterface (1.5.20):
+    - XLFacility.optimize/Core
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
+  - YYCache (1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
+  - FitCloudKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
   - Flipper (= 0.182.0)
   - Flipper-Boost-iOSX (= 1.76.0.1.11)
   - Flipper-DoubleConversion (= 3.2.0.1)
@@ -519,6 +550,7 @@ DEPENDENCIES:
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
   - OpenSSL-Universal (= 1.1.1100)
+  - QuickTraceiOSLogger
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
@@ -553,7 +585,9 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - Toast
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+  - YYCategories
 
 SPEC REPOS:
   trunk:
@@ -569,8 +603,15 @@ SPEC REPOS:
     - fmt
     - libevent
     - OpenSSL-Universal
+    - QuickTraceiOSLogger
     - SocketRocket
+    - Toast
+    - XLFacility.optimize
     - YogaKit
+    - YYCache
+    - YYCategories
+    - YYImage
+    - YYWebImage
 
 EXTERNAL SOURCES:
   boost:
@@ -581,6 +622,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/FBLazyVector"
   FBReactNativeSpec:
     :path: "../node_modules/react-native/React/FBReactNativeSpec"
+  FitCloudKit:
+    :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   hermes-engine:
@@ -653,12 +696,18 @@ EXTERNAL SOURCES:
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
+CHECKOUT OPTIONS:
+  FitCloudKit:
+    :commit: cd350b1a552d951525a4db96ab4bb9451ec81e9d
+    :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
+
 SPEC CHECKSUMS:
   boost: 57d2868c099736d80fcd648bf211b4431e51a558
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
   FBLazyVector: 748c0ef74f2bf4b36cfcccf37916806940a64c32
   FBReactNativeSpec: 966f29e4e697de53a3b366355e8f57375c856ad9
+  FitCloudKit: 3b3e4dd92c4208a72768e80bfa57517dbe847124
   Flipper: 6edb735e6c3e332975d1b17956bcc584eccf5818
   Flipper-Boost-iOSX: fd1e2b8cbef7e662a122412d7ac5f5bea715403c
   Flipper-DoubleConversion: 2dc99b02f658daf147069aad9dbd29d8feb06d30
@@ -672,6 +721,7 @@ SPEC CHECKSUMS:
   hermes-engine: 8057e75cfc1437b178ac86c8654b24e7fead7f60
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  QuickTraceiOSLogger: 43f2dd860bd7cbaf3e126f09eb0ad25aca26bda3
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: 28469809442eb4eb5528462705f7d852948c8a74
   RCTTypeSafety: e9c6c409fca2cc584e5b086862d562540cb38d29
@@ -705,9 +755,15 @@ SPEC CHECKSUMS:
   React-utils: fa59c9a3375fb6f4aeb66714fd3f7f76b43a9f16
   ReactCommon: dd03c17275c200496f346af93a7b94c53f3093a4
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   Yoga: b76f1acfda8212aa16b7e26bcce3983230c82603
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: ee5b67172dcd2f3d9c35733bc7b756bf72f06bf9
+PODFILE CHECKSUM: 8c4697a97cedac7bea3497b8bd2aa32006709c46
 
 COCOAPODS: 1.12.1
